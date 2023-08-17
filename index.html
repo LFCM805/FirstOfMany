@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul class="navlist">
+            <li><a href="#container">Top Page</a></li>
+            <li><a href="#display">Display</a></li>
+            <li><a href="#position">Position</a></li>
+            <li><a href="#terminal">Terminal</a></li>
+        </ul>
+    </nav>
+
+    
+    <div id="container">
+        <div class="banner">
+            <div class="banner-text">
+                <h1>Welcome</h1>
+                <h2>To LFCM Sheet</h2>
+                <button id="btn" href="#end">Know more!</button>
+                <h3 class="joke">Only a ilustrative button for now 😂</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="section-one">
+        <div id="display" class="sub-title">
+            <h1>Display</h1>
+        </div>
+        <table id="table-display">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;inline&gt;</td>
+                    <td>Inline</td>
+                    <td>Can share lines with other elements. Cant change width/height on CSS.</td>
+                </tr>
+                <tr>
+                    <td>&lt;inline-block&gt;</td>
+                    <td>Inline Block</td>
+                    <td>Inline-block display combines features of both inline and block elements. Inline-block elements can appear next to each other and we can specify their dimensions using the width and height properties. Images are the best example of default inline-block elements.</td>
+                </tr>
+                <tr>
+                    <td>&lt;block&gt;</td>
+                    <td>Block</td>
+                    <td>Fill the entire width of the page by default, but their width property can also be set.
+                        Unless otherwise specified, they are the height necessary to accommodate their content.</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div id="position" class="sub-title">
+            <h1>Position</h1>
+        </div>
+        <table id="table-display">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;static&gt;</td>
+                    <td>Static</td>
+                    <td>The element is positioned according to the normal flow of the document.
+                        The top, right, bottom, left, and z-index properties have no effect on this element.
+                        Relative:</td>
+                </tr>
+                <tr>
+                    <td>&lt;relative&gt;</td>
+                    <td>Relative</td>
+                    <td>The element is positioned according to the normal flow and then offset by the top, right, bottom, and left properties.
+                        The space for the element is reserved in the normal document flow, and other content will not move into that space.
+                        It's positioned relative to itself, meaning the offset is applied from where the element would be if it were static.</td>
+                </tr>
+                <tr>
+                    <td>&lt;absolute&gt;</td>
+                    <td>Absolute</td>
+                    <td>The element is positioned relative to the nearest positioned ancestor (an ancestor with a position other than static).
+                        If there are no positioned ancestors, it's positioned relative to the initial containing block (usually the viewport).
+                        The element is removed from the normal flow, so other content may move into its space.</td>
+                </tr>
+                <tr>
+                    <td>&lt;fixed&gt;</td>
+                    <td>Fixed</td>
+                    <td>The element is positioned relative to the viewport, meaning it stays in the same place even if the page is scrolled.
+                        Like absolute, the element is removed from the normal flow.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sticky&gt;</td>
+                    <td>Sticky</td>
+                    <td>This is a hybrid between relative and fixed positioning.
+                        The element behaves like a relatively positioned element until it reaches a specified threshold (using top, right, bottom, or left), at which point it becomes fixed.
+                        It's useful for creating elements that stick to the top of the viewport as the user scrolls down, such as a sticky header.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="terminal" class="sub-title">
+            <h1>Terminal</h1>
+        </div>
+        <table id="table-display">
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pwd</td>
+                    <td>Print Working Directory</td>
+                    <td>Displays the full pathname of the current working directory.</td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>Change Directory</td>
+                    <td>Changes the current working directory to the specified directory.</td>
+                </tr>
+                <tr>
+                    <td>touch</td>
+                    <td>Create Empty File</td>
+                    <td>Creates a new, empty file with the specified name. If the file already exists, the modification time is updated.</td>
+                </tr>
+                <tr>
+                    <td>mkdir</td>
+                    <td>Make Directory</td>
+                    <td>Creates a new directory with the specified name.</td>
+                </tr>
+                <tr>
+                    <td>clear</td>
+                    <td>Clear Terminal Screen</td>
+                    <td>Clears the terminal screen, removing all previous output. (Clean only what you see, your path through the directory will keep saved)</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="end">
+        <h1>First Real Project!</h1>
+        <h2>Made 100% By Myself!!</h2>
+        <h3>And ofcourse with help of our friend GPT on parts that I had doubts. Little Secret 🤫</h3>
+    </section>
+    
+</body>
+</html>
